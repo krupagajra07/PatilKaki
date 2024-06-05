@@ -1,0 +1,444 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/* Header Section */
+.header-section {
+    background-color: #1d3557;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-section .logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.header-section .nav-menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header-section .nav-menu ul li {
+    margin-left: 20px;
+}
+
+.header-section .nav-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.header-section .nav-menu ul li a:hover {
+    color: #a8dadc;
+}
+
+.header-section .login-button,
+.header-section .talk-button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #e63946;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.header-section .login-button:hover,
+.header-section .talk-button:hover {
+    background: #a8dadc;
+}
+
+/* Hero Section */
+.hero-section {
+    background: #457b9d;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-section .cta-button {
+    padding: 10px 20px;
+    background: #e63946;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-section .cta-button:hover {
+    background: #a8dadc;
+}
+
+/* Key Problems Solved Section */
+.key-problems-section {
+    background: #f1faee;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.key-problems-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.key-problems-section .problems {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.key-problems-section .problem {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.key-problems-section .problem h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.key-problems-section .problem p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Key Metrics Section */
+.key-metrics-section {
+    background: #a8dadc;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.key-metrics-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.key-metrics-section .metrics {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.key-metrics-section .metric {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.key-metrics-section .metric h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.key-metrics-section .metric p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Reviews Section */
+.reviews-section {
+    background: #f1faee;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.reviews-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.reviews-section .reviews {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.reviews-section .review {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reviews-section .review p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.reviews-section .review h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Problem Target Section */
+.problem-target-section {
+    background: #a8dadc;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.problem-target-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.problem-target-section .tabs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.problem-target-section .tab {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.problem-target-section .tab h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.problem-target-section .tab p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* CTA Section */
+.cta-section {
+    background: #1d3557;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.cta-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-section .cta-button {
+    padding: 10px 20px;
+    background: #e63946;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-section .cta-button:hover {
+    background: #a8dadc;
+}
+
+/* Footer Section */
+.footer-section {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-section p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Login Section */
+.login-section {
+    background: #f1faee;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.login-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.login-section form {
+    display: inline-block;
+    text-align: left;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-section form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-section form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-section form .login-button {
+    width: 100%;
+    padding: 10px;
+    background: #e63946;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-section form .login-button:hover {
+    background: #a8dadc;
+}
+
+/* Register Section */
+.register-section {
+    background: #f1faee;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.register-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.register-section form {
+    display: inline-block;
+    text-align: left;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-section form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.register-section form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.register-section form .register-button {
+    width: 100%;
+    padding: 10px;
+    background: #e63946;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-section form .register-button:hover {
+    background: #a8dadc;
+}
+
+/* Talk to Us Section */
+.talk-section {
+    background: #f1faee;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.talk-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.talk-section .faq {
+    text-align: left;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.talk-section .faq p {
+    margin-bottom: 10px;
+}
+
+.talk-section form {
+    display: inline-block;
+    text-align: left;
+}
+
+.talk-section form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.talk-section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.talk-section form .ask-button {
+    width: 100%;
+    padding: 10px;
+    background: #e63946;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.talk-section form .ask-button:hover {
+    background: #a8dadc;
+}
